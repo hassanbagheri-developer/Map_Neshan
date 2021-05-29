@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/item_label"
+        android:title="AddLabel"/>
+    <item android:id="@+id/item_marker"
+        android:title="AddMarker"/>
+<!--    <item android:id="@+id/item_changeTilt"-->
+<!--        android:title="changeTilt"/>-->
+<!--    <item android:id="@+id/item_changeBearing"-->
+<!--        android:title="changeBearing"/>-->
+<!--    <item android:id="@+id/item_Location"-->
+<!--        android:title="Location"/>-->
+<!--    <item android:id="@+id/item_reverse"-->
+<!--        android:title="ReverseGeocodingAPI"/>-->
+<!--    <item android:id="@+id/item_ruting"-->
+<!--        android:title="Routing"/>-->
+<!--    <item android:id="@+id/item_search"-->
+<!--        android:title="Search"/>-->
+</menu>
