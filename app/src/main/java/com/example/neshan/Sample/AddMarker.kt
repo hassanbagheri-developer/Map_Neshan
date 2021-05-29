@@ -37,6 +37,7 @@ class AddMarker : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_marker)
         initLayoutReferences()
+
     }
 
     private fun initLayoutReferences() {
