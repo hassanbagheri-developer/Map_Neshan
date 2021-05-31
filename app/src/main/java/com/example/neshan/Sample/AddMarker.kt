@@ -85,8 +85,8 @@ class AddMarker : AppCompatActivity() {
                     addMarker(clickLocation, markerId)
                     markerId++
                 } else if (mapClickInfo.clickType == ClickType.CLICK_TYPE_SINGLE) {
-                    //   drawLine();
-                    drawPloygone()
+                       drawLine();
+//                    drawPloygone()
                 } else if (mapClickInfo.clickType == ClickType.CLICK_TYPE_DOUBLE) {
                     //Log.e(TAG, "onMapClicked: ", );
                 }
@@ -152,7 +152,7 @@ class AddMarker : AppCompatActivity() {
             }
         }
     }
-
+// region کشیدن خط
     private fun drawLine(): LineGeom {
         val lngLatVector = LngLatVector()
         lngLatVector.add(LngLat(51.327650, 35.700368))
@@ -163,6 +163,8 @@ class AddMarker : AppCompatActivity() {
         labelLayer!!.add(line)
         return lineGeom
     }
+
+//    endregion
 
     private val lineStyle: LineStyle
         private get() {

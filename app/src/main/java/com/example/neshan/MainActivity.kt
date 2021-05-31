@@ -7,6 +7,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.neshan.Sample.AddLabel
 import com.example.neshan.Sample.AddMarker
+import com.example.neshan.Sample.ChangeCameraBearing
+import com.example.neshan.Sample.ChangeCameraTilt
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.startActivity
 import org.neshan.core.LngLat
@@ -53,6 +55,14 @@ class MainActivity : AppCompatActivity() ,PopupMenu.OnMenuItemClickListener{
             }
             R.id.item_marker -> {
                 startActivity<AddMarker>()
+                true
+            }
+            R.id.item_changeTilt -> {
+                startActivity<ChangeCameraTilt>()
+                true
+            }
+            R.id.item_changeBearing -> {
+                startActivity<ChangeCameraBearing>()
                 true
             }
 

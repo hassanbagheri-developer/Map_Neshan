@@ -13,6 +13,8 @@
         android:theme="@style/Theme.Neshan">
         <activity android:name=".Sample.AddLabel"/>
         <activity android:name=".Sample.AddMarker"/>
+        <activity android:name=".Sample.ChangeCameraTilt"/>
+        <activity android:name=".Sample.ChangeCameraBearing"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
